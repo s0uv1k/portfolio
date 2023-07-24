@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 50%;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+}
+
+.contact-form input {
+  width: 30rem;
+  background-color: transparent;
+  border: 0px;
+  border: transparent;
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 2px solid #fff;
+}
+
+.contact-form textarea {
+  width: 30rem;
+  border: 0px;
+  background-color: transparent;
+  margin: 20px;
+  font-size: 17px;
+  border-bottom: 2px solid white;
+  color: bisque;
+}
+
+.contact-form input[type="submit"] {
+  background-image: linear-gradient(to right, #cc2b5e, #753a88);
+  border: 1px solid #2c3e50;
+  color: bisque;
+  align-items: center;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  margin-top: -5px;
+}
+.contact-form input[type="submit"]:hover {
+  background-image: none;
+  color: white;
+}
+.icon {
+  width: 1000px; /* Set the width and height to your desired size */
+  height: 1000px;
+  border-radius: 50%; /* Make it round by setting the border-radius to 50% of the width/height */
+  background-color: #fff; /* Set the background color for the round icon */
+  color: #000000; /* Set the text color inside the icon if you want to add text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}

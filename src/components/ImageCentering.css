@@ -1,0 +1,14 @@
+/* ImageCentering.css */
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Set the desired height for the container if needed */
+}
+
+.image-container img {
+  /* If you want to limit the image size, you can set a max-width or max-height here */
+  max-width: 100%;
+  max-height: 100%;
+}
