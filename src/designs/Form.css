@@ -3,14 +3,13 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 50%;
   justify-content: center;
   align-items: center;
   min-height: 110vh;
 }
 
 .contact-form input {
-  width: 30rem;
+  width: 20rem;
   background-color: transparent;
   border: 0px;
   border: transparent;
@@ -21,7 +20,7 @@
 }
 
 .contact-form textarea {
-  width: 30rem;
+  width: 20rem;
   border: 0px;
   background-color: transparent;
   margin: 20px;

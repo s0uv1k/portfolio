@@ -13,7 +13,7 @@ export default function Projects() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <>
+    <body style={{overflowX: 'hidden', backgroundColor: 'black'}}>
       <br />
       <div style={{ marginLeft: "50px" }} data-aos="fade-left">
         <h2 style={{ color: "#c22152" }}>My Projects</h2>
@@ -160,6 +160,6 @@ export default function Projects() {
           </h4>
         </div>
       </div>
-    </>
+    </body>
   );
 }

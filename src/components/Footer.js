@@ -15,7 +15,7 @@ export default function footer() {
     link.click();
   };
   return (
-    <div>
+    <body style={{overflowX: 'hidden', backgroundColor: 'black'}}>
       <footer className="bd-footer py-5 mt-5 bg-dark">
         <div className="container py-2">
           <div class="row">
@@ -64,6 +64,7 @@ export default function footer() {
                   borderRadius: "10px",
                   borderColor: "transparent",
                   marginTop: "10px",
+                  whiteSpace: 'nowrap',
                   backgroundColor: "#c22152",
                   color: "white",
                 }}
@@ -74,6 +75,6 @@ export default function footer() {
           </div>
         </div>
       </footer>
-    </div>
+    </body>
   );
 }

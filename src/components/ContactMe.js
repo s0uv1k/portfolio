@@ -35,6 +35,7 @@ export default function ContactMe() {
 
   return (
     <>
+    <body style={{overflowX: 'hidden', backgroundColor: 'black'}}>
       <div className="container" style={{ color: "white" }}>
         <div className="container" data-aos="fade-left">
           <h2 data-aos="fade-left" style={{ color: "#c22152" }}>
@@ -54,7 +55,7 @@ export default function ContactMe() {
           onSubmit={sendEmail}
         >
           <div className=" container row" data-aos="fade-left">
-            <div className="col-sm-6" style={{ float: "left" }}>
+            <div className="col-lg-6" style={{ float: "left" }}>
               <div className="contact-form" data-aos="fade-left">
                 <input
                   type="text"
@@ -92,7 +93,7 @@ export default function ContactMe() {
               </div>
             </div>
             <div
-              className="col-sm-6"
+              className="col-lg-6 py-3"
               data-aos="fade-left"
               style={{ color: "white", float: "right" }}
             >
@@ -130,6 +131,7 @@ export default function ContactMe() {
           </div>
         </form>
       </div>
+    </body>
     </>
   );
 }

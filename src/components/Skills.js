@@ -14,14 +14,15 @@ export default function Skills() {
   }, []);
   return (
     <>
+      <body style={{overflowX: 'hidden', backgroundColor: 'black'}}>
       <br />
       <div className="container" data-aos="fade-left">
         <h2 style={{ color: "#c22152" }}>My skills</h2>
       </div>
       <br />
-      <div className="container" data-aos="fade-left">
+      <div className="container" >
         <div className="row">
-          <h3 style={{ color: "#de6262" }}>Web Development</h3>
+          <h3 style={{ color: "#de6262" }} data-aos="fade-left">Web Development</h3>
           <div className="col-lg-6 py-3" style={{ float: "Left" }}>
             <ul style={{ color: "white" }}>
               <li data-aos="fade-left">
@@ -55,9 +56,9 @@ export default function Skills() {
         </div>
       </div>
       <br />
-      <div className="container" data-aos="fade-left">
+      <div className="container" >
         <div className="row">
-          <h3 style={{ color: "#de6262", textAlign: "right" }}>
+          <h3 style={{ color: "#de6262", textAlign: "right" }} data-aos="fade-left">
             App Development
           </h3>
           <div
@@ -92,9 +93,9 @@ export default function Skills() {
         </div>
       </div>
       <br />
-      <div className="container" data-aos="fade-left">
+      <div className="container" >
         <div className="row">
-          <h3 data-aos="fade-left" style={{ color: "#de6262" }}>
+          <h3 data-aos="fade-left" data-Aos="fade-left" style={{ color: "#de6262" }}>
             Programming Language
           </h3>
           <div
@@ -134,11 +135,11 @@ export default function Skills() {
         </div>
       </div>
       <br />
-      <div className="container" data-aos="fade-left">
+      <div className="container" >
         <div className="row">
           <h3
             data-aos="fade-left"
-            style={{ color: "#de6262", textAlign: "right" }}
+            style={{ color: "#de6262", textAlign: "right" }} 
           >
             Soft Skills
           </h3>
@@ -173,6 +174,7 @@ export default function Skills() {
           </div>
         </div>
       </div>
+      </body>
     </>
   );
 }

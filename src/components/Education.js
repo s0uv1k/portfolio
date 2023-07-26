@@ -11,7 +11,7 @@ export default function Education() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <>
+    <body style={{overflowX: 'hidden', backgroundColor: 'black'}}>
       <br />
       <div className="container" data-aos="fade-left">
         <h2 style={{ color: "#c22152" }}>My Education</h2>
@@ -106,6 +106,6 @@ export default function Education() {
           </div>
         </div>
       </div>
-    </>
+    </body>
   );
 }

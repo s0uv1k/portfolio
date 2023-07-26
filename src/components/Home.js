@@ -11,7 +11,7 @@ export default function Home() {
   }, []);
   //const myDetail = useDetails()
   return (
-    <>
+    <body style={{overflowX: 'hidden', backgroundColor: 'black'}}>
       <br />
       <div
         className="container"
@@ -101,6 +101,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </body>
   );
 }
