@@ -88,7 +88,7 @@ export default function Education() {
             style={{ float: "Left" }}
           >
             <p style={{ color: "white", fontSize: "20" }}>
-              I completed my higher secondary education from Mulajore Sitanath
+              I completed my secondary education from Mulajore Sitanath
               Pathsala, Shyamnagar.
             </p>
             <span style={{ color: "#C70039 ", fontWeight: "bold" }}>
